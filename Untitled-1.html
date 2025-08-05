@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>адольфік крут</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    table {
+      width: 400px;
+      border-collapse: collapse;
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 1.8em;
+      margin-bottom: 15px;
+      color: #ffffff;
+      padding-top: 10px;
+    }
+
+    th, td {
+      padding: 12px 16px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #2c2c2c;
+      color: #f5f5f5;
+    }
+
+    tr:nth-child(even) {
+      background-color: #2a2a2a;
+    }
+
+    tr:hover {
+      background-color: #3a3a3a;
+    }
+
+    .team-icon {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+      margin-right: 8px;
+      border-radius: 4px;
+    }
+
+    .team-name {
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Турнірна Таблиця</caption>
+    <thead>
+      <tr>
+        <th>Команда</th>
+        <th>Очки</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <div class="team-name">
+            <img src="rostik.png" alt="Ростик ФК" class="team-icon">
+            Ростик ФК
+          </div>
+        </td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="team-name">
+            <img src="batya.png" alt="Батя ФК" class="team-icon">
+            Батя ФК
+          </div>
+        </td>
+        <td>0</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
